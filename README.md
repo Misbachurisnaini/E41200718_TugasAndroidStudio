@@ -1,7 +1,7 @@
 # E41200718_TugasAndroidStudio!
-[WhatsApp Image 2021-09-29 at 16 02 21 (2)](https://user-images.githubusercontent.com/75231605/135239977-0ce320eb-de38-44b6-82ad-41e70a200e79.jpeg)
-![WhatsApp Image 2021-09-29 at 16 02 21 (1)](https://user-images.githubusercontent.com/75231605/135240017-1da317b2-f406-40b0-96b9-20f05d1d8c76.jpeg)
-![WhatsApp Image 2021-09-29 at 16 02 21](https://user-images.githubusercontent.com/75231605/135240078-c7dcfc07-1b73-44b0-84b3-2272acab8388.jpeg)
 Nama : Misbachur Rohmatul Isnaini
 NIM : E41200718
 Teknik Informatika Golongan B
+![Listview](https://user-images.githubusercontent.com/75231605/135240394-88c18414-0209-47b9-9312-5e56efaa4895.jpeg)
+![spinner](https://user-images.githubusercontent.com/75231605/135240412-c91c39e3-4670-4f4c-95c4-e63c2290422a.jpeg)
+![autocomplete](https://user-images.githubusercontent.com/75231605/135240427-41e042fd-6478-4e2e-8964-27b867806d14.jpeg)
