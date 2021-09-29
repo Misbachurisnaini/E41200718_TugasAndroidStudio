@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#3399FF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        //untuk membuat nama panjang
+        <EditText
+            android:id="@+id/editnamapanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Nama Panjang"/>
+
+        //untuk membuat nama panggilan
+        <EditText
+            android:id="@+id/editnamapanggilan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Nama Panggilan"/>
+
+        //untuk membuat spinner jenis kelamin
+        <Spinner
+            android:id="@+id/spnjkelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:backgroundTint="#CCFFFF"/>
+
+        //untuk membuat tempat tanggal lahir
+        <EditText
+            android:id="@+id/editttl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint= "Tempat Tanggal Lahir"/>
+
+        //untuk membuat button tanggal lahir
+        <Button
+            android:id="@+id/btntl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textColor="@color/black"
+            android:backgroundTint="#CCFFFF"/>
+
+        //untuk membuat alamat
+        <EditText
+            android:id="@+id/editalamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Alamat"/>
+
+        //untuk membuat hobby
+        <EditText
+            android:id="@+id/edithobby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Hobby"/>
+
+        //untuk membuat pekerjaan
+        <EditText
+            android:id="@+id/editpekerjaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Pekerjaan"/>
+
+        //untuk membuat button proses
+        <Button
+            android:id="@+id/btnproses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Proses"
+            android:textColor="@color/black"
+            android:backgroundTint="#CCFFFF"/>
+
+        //pengenalan diri
+        <TextView
+            android:id="@+id/txtpengenalan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Pengenalan Diri"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

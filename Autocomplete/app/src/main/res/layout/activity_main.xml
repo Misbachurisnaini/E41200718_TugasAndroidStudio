@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff99ff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        //heading
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Annyeong!"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginVertical="10dp"/>
+
+        //heading
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silahkan Login"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginVertical="10dp"/>
+
+        //untuk inputan email
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginVertical="10dp"/>
+
+        //untuk inputan password
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginVertical="10dp"/>
+
+        //autocompletesq
+        <AutoCompleteTextView
+            android:id="@+id/auto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your SQ"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="255dp"
+            android:layout_marginVertical="10dp"/>
+
+        //autocompletenama
+        <AutoCompleteTextView
+            android:id="@+id/auto2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="353dp"
+            android:layout_marginVertical="10dp"/>
+
+        //button login
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="480dp"
+            android:layout_marginVertical="10dp"
+            android:backgroundTint="#ff00ff"/>
+
+        //teks ucapan terimakasih
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thank you for coming, have a good day!"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="123dp"
+            android:layout_marginVertical="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

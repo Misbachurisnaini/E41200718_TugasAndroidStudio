@@ -1,0 +1,4 @@
+<resources>
+    //menambahkan judul aplikasi
+    <string name="app_name">Pick Your Bias !! </string>
+</resources>
